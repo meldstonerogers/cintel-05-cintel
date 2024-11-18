@@ -20,6 +20,8 @@ Create project repository in Github. Create a requirements.txt and .gitignore fi
 - shinywidgets
 
 Publish GitHub Pages for your project repository.
+Create a docs folder within your repository to keep your GitHub Pages content separate from your main project files. Within your GitHub repository, select add file and create a docs folder with, docs/.gitkeep. This allows a folder to be created with no content. 
+
 The following instructions borrowed from Dr. Cases's Continous Intelligence Course within NWSU's School of Computer Science and Information Systems: 
 
 1. Go to the repository on GitHub and navigate to the **Settings** tab.
