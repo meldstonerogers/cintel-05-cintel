@@ -5,6 +5,11 @@ from shinywidgets import render_widget, render_plotly
 import palmerpenguins  # This package provides the Palmer Penguins dataset
 from shinyswatch import theme
 import seaborn as sns
+import faicons  
+import pandas as pd  
+import pyarrow  
+import scipy 
+
 
 # Use the built-in function to load the Palmer Penguins dataset
 from palmerpenguins import load_penguins 
