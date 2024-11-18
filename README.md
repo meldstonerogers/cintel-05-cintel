@@ -7,7 +7,8 @@ Professional project using python, shiny, and reactive.calc function to publish 
 Commands were used on a Mac machine running zsh. Project was guided by the following respository's by Dr. Denise Case: [basic app](https://github.com/denisecase/cintel-05-cintel-basic), [fancy app](https://github.com/denisecase/cintel-05-cintel-fancy), and [final CI app](https://github.com/denisecase/cintel-05-cintel).  
 
 
-## Set and Dependency Management 
+## Project Set Up and Dependency Management 
+### Build project in GitHub
 Create project repository in Github. Create a requirements.txt and .gitignore file for Python code. Add the following to your requirements.txt: 
 - faicons 
 - pandas
@@ -16,7 +17,19 @@ Create project repository in Github. Create a requirements.txt and .gitignore fi
 - scipy
 - shiny
 - shinylive 
-- shinywidgets 
+- shinywidgets
+
+Publish GitHub Pages for your project repository.
+The following instructions borrowed from Dr. Cases's Continous Intelligence Course within NWSU's School of Computer Science and Information Systems: 
+
+1. Go to the repository on GitHub and navigate to the **Settings** tab.
+2. Scroll down and click the **Pages** section down the left.
+3. Select branch main as the source for the site.
+4. Change from the root folder to the docs folder to publish from.
+5. Click Save and wait for the site to build.
+6. Eventually, be patient, your app will be published and if you scroll to the top of the Pages tab, you'll see your github.io URL for the hosted web app. Copy this to your clipboard. 
+7. Back on the main repo page, find the About section of the repo (kind of upper right).
+8. Edit the "About" section of the repository to include a link to your hosted web app by using the Pages URL. 
 
 ### Clone repository to your machine
 ```
