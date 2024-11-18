@@ -63,10 +63,10 @@ git add .
 git commit -m "initial"                         
 git push origin main
 ```
-### Start and Complete Project 
+## Start Your Project 
 Follow instructions within Dr. Case's GitHub repositories: [basic app](https://github.com/denisecase/cintel-05-cintel-basic); [fancy app](https://github.com/denisecase/cintel-05-cintel-fancy); [final CI app](https://github.com/denisecase/cintel-05-cintel), and other course content provided. 
 
-#### Troubleshooting
+### Troubleshooting
 Using the following code, I attempted to run my Shiny app within a web browser. 
 ```
 shiny run --reload --launch-browser penguins/app.py
